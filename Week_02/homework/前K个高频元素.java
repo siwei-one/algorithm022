@@ -1,4 +1,9 @@
-public class 前 K 个高频元素 {
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.PriorityQueue;
+
+public class 前K个高频元素 {
     // 找出前k个
     public int[] topKFrequent(int[] nums, int k) {
         if (nums == null || nums.length == 0 || k <= 0) {
